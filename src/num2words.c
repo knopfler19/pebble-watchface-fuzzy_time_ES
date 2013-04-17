@@ -121,7 +121,7 @@ void fuzzy_time_to_words(int hours, int minutes, char* words, size_t length) {
  
   if (fuzzy_hours == 0 && fuzzy_minutes == 0) {
     remaining -= append_string(words, remaining, STR_MIDNIGHT);
-  } else if (fuzzy_hours == 12) {
+  } else if (fuzzy_hours == 12 && fuzzy_minutes == 0) {
     remaining -= append_string(words, remaining, STR_NOON);
   } else if (fuzzy_hours % 12 == 0) {
     remaining -= append_number(words, 12);
