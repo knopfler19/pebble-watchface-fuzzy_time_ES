@@ -44,13 +44,13 @@ static const char* const TENSPLUS[] = {
   "",
   "dieci",
   "veinti",
-  "treinta y",
-  "cuarenta y",
-  "cincuenta y",
-  "sesenta y",
-  "setenta y",
-  "ochenta y",
-  "noventa y"
+  "treinta y ",
+  "cuarenta y ",
+  "cincuenta y ",
+  "sesenta y ",
+  "setenta y ",
+  "ochenta y ",
+  "noventa y "
 };
 
 static const char* STR_OH_CLOCK = "en punto";
